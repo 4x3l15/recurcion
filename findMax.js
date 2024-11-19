@@ -1,9 +1,9 @@
 function findMax(arr) {
-    if (condition) {
-        return ;
+    if (arr.length === 1) {
+        return arr[0];
     }else{
-        const restMax = findMax(arr.slice(1)); // Llamada recursiva
+        const restMax = findMax(arr.slice(1));
         return arr[0] > restMax ? arr[0] : restMax;;
     }
 }
-console.log(findMax());
+console.log(findMax([16,8,6,9,1]));
