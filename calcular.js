@@ -5,4 +5,4 @@ function calcular(n) {
         return 1 + calcular(n % 2)
     }
 }
-console.log(calcular(14));
+console.log(calcular(20));

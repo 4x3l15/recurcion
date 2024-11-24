@@ -8,4 +8,4 @@ function contains(arr, target) {
         return contains(arr.slice(1), target);
     }
 }
-console.log(contains([4,35,1,7,8],100 ));
+console.log(contains([4,35,1,7,8],1 ));
